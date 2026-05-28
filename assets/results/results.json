@@ -1,0 +1,138 @@
+{
+  "baseline": {
+    "darker_skin": {
+      "name": "darker_skin",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.010659933090209961,
+      "n_images": 10
+    },
+    "lighter_skin": {
+      "name": "lighter_skin",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.006340968608856201,
+      "n_images": 10
+    },
+    "low_light": {
+      "name": "low_light",
+      "top1_agreement": 0.9,
+      "mean_conf_drop": 0.11099328473210335,
+      "n_images": 10
+    },
+    "harsh_light": {
+      "name": "harsh_light",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.005601447820663452,
+      "n_images": 10
+    },
+    "warm_white_bal": {
+      "name": "warm_white_bal",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.008510148525238037,
+      "n_images": 10
+    },
+    "cool_white_bal": {
+      "name": "cool_white_bal",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.027849870920181274,
+      "n_images": 10
+    },
+    "motion_blur": {
+      "name": "motion_blur",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.0007759690284729004,
+      "n_images": 10
+    },
+    "out_of_focus": {
+      "name": "out_of_focus",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.0032085180282592773,
+      "n_images": 10
+    },
+    "sensor_noise": {
+      "name": "sensor_noise",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.0049168050289154054,
+      "n_images": 10
+    },
+    "jpeg_artifacts": {
+      "name": "jpeg_artifacts",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.0016865313053131103,
+      "n_images": 10
+    },
+    "off_axis": {
+      "name": "off_axis",
+      "top1_agreement": 0.8,
+      "mean_conf_drop": 0.21373842731118203,
+      "n_images": 10
+    }
+  },
+  "tta": {
+    "darker_skin": {
+      "name": "darker_skin",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.08130570322703404,
+      "n_images": 10
+    },
+    "lighter_skin": {
+      "name": "lighter_skin",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.014346400435481776,
+      "n_images": 10
+    },
+    "low_light": {
+      "name": "low_light",
+      "top1_agreement": 0.9,
+      "mean_conf_drop": 0.29539588130064653,
+      "n_images": 10
+    },
+    "harsh_light": {
+      "name": "harsh_light",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.0162808017006942,
+      "n_images": 10
+    },
+    "warm_white_bal": {
+      "name": "warm_white_bal",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.033492479173998724,
+      "n_images": 10
+    },
+    "cool_white_bal": {
+      "name": "cool_white_bal",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.06567954463618139,
+      "n_images": 10
+    },
+    "motion_blur": {
+      "name": "motion_blur",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.015867480742079852,
+      "n_images": 10
+    },
+    "out_of_focus": {
+      "name": "out_of_focus",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.01829580329358573,
+      "n_images": 10
+    },
+    "sensor_noise": {
+      "name": "sensor_noise",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": -0.005421603258167018,
+      "n_images": 10
+    },
+    "jpeg_artifacts": {
+      "name": "jpeg_artifacts",
+      "top1_agreement": 1.0,
+      "mean_conf_drop": 0.009025067543344801,
+      "n_images": 10
+    },
+    "off_axis": {
+      "name": "off_axis",
+      "top1_agreement": 0.8,
+      "mean_conf_drop": 0.2217038085925326,
+      "n_images": 10
+    }
+  }
+}
