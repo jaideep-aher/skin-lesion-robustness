@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.python-version
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ML artifacts (small ones kept in repo; large weights ignored)
+*.ckpt
+*.pt
+*.pth
+*.onnx
+data/
+datasets/
+
+# Logs
+*.log
+runs/
+wandb/
+
+# HF cache (if any leak into repo)
+.cache/
+huggingface/
+
+# Local env files
+.env
+.env.local
